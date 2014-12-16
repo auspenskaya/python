@@ -1,7 +1,7 @@
 '''
 Created on 10 dec. 2014.
 
-@author: Ann
+@author: Ann ....
 '''
 if __name__ == '__main__':
     import os
