@@ -1,0 +1,24 @@
+-- VERSION_4
+-- START DISKCACHE
+C:\Documents and Settings\Аня\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Hello World\com.python.pydev.analysis\v2_indexcache
+convert_to_txt|1418289054718|C:\Documents and Settings\Аня\workspace\Hello World\convert_to_txt.py
+convert_to_json|1418301219718|C:\Documents and Settings\Аня\workspace\Hello World\convert_to_json.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=convert_to_txt
+1=convert_to_json
+-- END DICTIONARY
+-- START TREE 1
+7
+a|2|a!11@a!19@
+d|1|d!19@
+dir|2|directory!11@directory!19@
+enc|1|enc!11@
+fil|4|file!19@files!19@file!11@files!11@
+jso|2|json_files!11@json_files!19@
+tex|1|text!19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

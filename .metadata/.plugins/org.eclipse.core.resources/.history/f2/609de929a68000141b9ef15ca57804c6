@@ -1,0 +1,10 @@
+'''
+Created on 10 dec. 2014.
+
+@author: Ann
+'''
+if __name__ == '__main__':
+import os
+file = open('C:\Python27\json\1.json', 'r')
+a = file.read()
+type(a)

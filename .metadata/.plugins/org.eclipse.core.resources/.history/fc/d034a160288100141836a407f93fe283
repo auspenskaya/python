@@ -1,0 +1,29 @@
+'''
+Created on 10 dec. 2014.
+
+@author: Ann
+'''
+if __name__ == '__main__':
+    import os
+    import json
+    import ast
+    import unicodedata
+    directory = 'C:/Python27/text_documents'
+    files = os.listdir(directory)
+    json_files = filter(lambda x: x.endswith('.txt'), files)
+    for i in json_files:
+        with open('C:/Python27/text_documents/'+i) as file:
+            print 'type file = '
+            print type(file.read())
+            a = unicode(file.read().decode('Windows-1251'))
+        #file = open('C:/Python27/text_documents/'+i, 'r')        
+        #a = file.read()
+            print i
+            #print a        
+            #a.decode('Windows-1251').encode('utf-8')
+            #print type(a)     
+            file.close()
+            file = open('C:/Python27/text_documents/'+i+'.json', 'w')
+            file.write('{"data":{"text":"'.encode('utf-8')+a.encode('utf-8')+'",}}'.encode('utf-8'))
+        
+        

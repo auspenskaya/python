@@ -1,0 +1,7 @@
+'''
+Created on 10 дек. 2014 г.
+
+@author: Аня
+'''
+if __name__ == '__main__':
+    print 'Hello World!'
